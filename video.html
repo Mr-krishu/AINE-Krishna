@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Krishna-Video</title>
+    <script
+      src="https://kit.fontawesome.com/f70a5c9118.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <style>
+      body {
+        background-color:rgb(221, 229, 235);
+        color: green;
+        box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.04);
+      }
+      a {
+        text-decoration: none;
+        font-size: 20px;
+        color: gray;
+      }
+      .urlInput {
+        margin-top: 100px;
+       
+        text-align: center;
+      }
+      .uploadbox{
+      
+
+      }
+      .wrapper{
+        margin-top:  0px;
+        margin-left: 266px;
+        text-align: center;
+        background-color: white;
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #inputfile {
+        width: 60%;
+        padding: 10px;
+        left: 20%;
+        border-radius: 10px;
+        outline: none;
+        border: none;
+        margin: 50px;
+      }
+      .inputfile {
+        width: 0.1px;
+        height: 0.1px;
+        opacity: 0;
+        overflow: hidden;
+        position: absolute;
+        z-index: -1;
+      }
+      
+     
+    </style>
+
+  </head>
+  <body>
+    <div>
+      <div>
+        <a href="#"><i class="fas fa-caret-left"></i> Videos</a>
+      </div>
+      <div class="urlInput">
+        <input type="url" placeholder="Insert URLs here" name="" id="inputfile" />
+        <br />
+        <span class="or"><strong>or</strong></span>
+      </div>
+        
+        <br />
+        <div class="wrapper">
+        <div class="uploadbox">
+        <label for="upload">UPLOAD</label>
+        <input type="file" name="upload" id="upload" class="inputfile" placeholder="upload"></input>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
