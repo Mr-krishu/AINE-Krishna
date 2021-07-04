@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Krishna Kant</title>
+    <script
+      src="https://kit.fontawesome.com/f70a5c9118.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      * {
+        margin: 0;
+      }
+      i {
+        padding: 15px 20px;
+        box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.04);
+      }
+      .nav {
+        display: inline-block;
+        text-align: center;
+      }
+      .logo{
+        width: 70px;
+        font-size: 65px;
+        height: 90px;
+      
+      }
+      header {
+        background-color: white;
+        padding: 15px 0px 3px;
+        box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.04);
+      }
+      ul {
+        list-style-type: none;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: top;
+        flex-direction: column;
+      }
+      li {
+        padding: 24px;
+        margin-left: -15px;
+        width: 35px;
+        text-align: left;
+        font-size: 12px;
+
+      }
+      li span {
+        padding: 15px 35px 15px 35px;
+        margin-left: -55px;
+        width: 100%;
+        background: linear-gradient(to right, rgb(36, 137, 204) 40%, rgb(255, 255, 255) 50%);
+        background-size: 250% 150%;
+        background-position: right bottom;
+        transition: all .5s ease-out;
+        box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.04);
+      }
+
+      span:hover {
+        background-position: left bottom;
+      }
+      a {
+        text-decoration: none;
+        color: gray;
+      }
+      iframe {
+        display: inline-block;
+        position: absolute;
+        width: 93%;
+        height: 90vh;
+        box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.04);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        K.K
+      </div>
+    </header>
+    <div class="main">
+      <div class="nav">
+        <ul>
+          <span class="box"><a href="Students.html" target="containbox">
+            <li><span class="fas fa-user-circle fa-3x"></span> Students</li>
+          </a></span>
+          <a href="video.html" target="containbox">
+            <li><span class="fa fa-book fa-3x"></span>Lesson Plan</li>
+          </a>
+          <a href="Setting.html" target="containbox">
+            <li><span class="fa fa-cog fa-3x"></span> Settings</li>
+          </a>
+        </ul>
+      </div>
+      <iframe id="containbox" name="containbox" frameborder="2"> </iframe>
+    </div>
+  </body>
+</html>
